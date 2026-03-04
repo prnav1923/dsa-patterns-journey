@@ -48,6 +48,24 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
         hashset.add(n)
     ```
 
+### 3. Valid Anagram (Easy)
+- **Problem**: Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+- **Why this pattern?**: Anagrams have the same character frequencies. Using a hash map to count characters allows for efficient comparison.
+- **Complexity**:
+    - **Time**: O(n) - To count frequencies of both strings.
+    - **Space**: O(k) - Where `k` is the number of unique characters (max 26 for lowercase English).
+- **Cheat Sheet**:
+    ```python
+    # Using Counter (Pythonic)
+    from collections import Counter
+    return Counter(s) == Counter(t)
+    ```
+
+---
+    ```python
+    return len(nums) != len(set(nums))
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
