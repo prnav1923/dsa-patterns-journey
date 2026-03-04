@@ -34,6 +34,20 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
     hashmap[n] = i
     ```
 
+### 2. Contains Duplicate (Easy)
+- **Problem**: Given an integer array `nums`, return `true` if any value appears at least twice in the array.
+- **Why this pattern?**: Use a hash set for O(1) lookups to check if we've seen the number before.
+- **Complexity**:
+    - **Time**: O(n) - Single pass.
+    - **Space**: O(n) - To store seen elements in the hash set.
+- **Cheat Sheet**:
+    ```python
+    hashset = set()
+    for n in nums:
+        if n in hashset: return True
+        hashset.add(n)
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
