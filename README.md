@@ -19,7 +19,7 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 
 | Day | Problem                      | Pattern          | Difficulty | Status    |
 | --- | ---------------------------- | ---------------- | ---------- | --------- |
-| 1   | Two Sum                      | Arrays & Hashing | Easy       | ⏳ Pending |
+| 1   | Two Sum                      | Arrays & Hashing | Easy       | ✅ Done    |
 | 2   | Contains Duplicate           | Arrays & Hashing | Easy       | ⏳ Pending |
 | 3   | Valid Anagram                | Arrays & Hashing | Easy       | ⏳ Pending |
 | 4   | Group Anagrams               | Arrays & Hashing | Medium     | ⏳ Pending |
