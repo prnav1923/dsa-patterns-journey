@@ -61,9 +61,41 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
     return Counter(s) == Counter(t)
     ```
 
----
+### 4. Group Anagrams (Medium)
+- **Problem**: Given an array of strings `strs`, group the anagrams together.
+- **Why this pattern?**: Use a hash map where the key is the character frequency. `defaultdict(list)` simplifies appending to groups.
+- **Complexity**:
+    - **Time**: O(m * n) - Where `m` is the number of strings and `n` is the avg length.
+    - **Space**: O(m * n) - To store the groups.
+- **Cheat Sheet**:
     ```python
-    return len(nums) != len(set(nums))
+    res = defaultdict(list)
+    for s in strs:
+        count = [0] * 26
+        for c in s: count[ord(c) - ord('a')] += 1
+        res[tuple(count)].append(s)
+    ```
+
+---
+
+### 5. Top K Frequent Elements (Medium)
+- **Problem**: Given an integer array `nums` and an integer `k`, return the `k` most frequent elements.
+- **Why this pattern?**: While often solved with a Heap ($O(N \log K)$), it can be optimized using **Bucket Sort** ($O(N)$). We use a hash map for counts and an array where index = frequency.
+- **Complexity**:
+    - **Time**: $O(N)$ - Single pass for counting and single pass for bucketing.
+    - **Space**: $O(N)$ - For the count map and frequency buckets.
+- **Cheat Sheet**:
+    ```python
+    count = {}
+    freq = [[] for i in range(len(nums) + 1)]
+    for n in nums: count[n] = 1 + count.get(n, 0)
+    for n, c in count.items(): freq[c].append(n)
+    
+    res = []
+    for i in range(len(freq) - 1, 0, -1):
+        for n in freq[i]:
+            res.append(n)
+            if len(res) == k: return res
     ```
 
 ---

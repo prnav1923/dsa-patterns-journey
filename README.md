@@ -22,8 +22,8 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 | 1   | Two Sum                          | Arrays & Hashing | Easy       | ✅ Done    |
 | 2   | Contains Duplicate               | Arrays & Hashing | Easy       | ✅ Done    |
 | 3   | Valid Anagram                    | Arrays & Hashing | Easy       | ✅ Done    |
-| 4   | Group Anagrams                   | Arrays & Hashing | Medium     | ⏳ Pending |
-| 5   | Top K Frequent Elements          | Heap             | Medium     | ⏳ Pending |
+| 4   | Group Anagrams                   | Arrays & Hashing | Medium     | ✅ Done    |
+| 5   | Top K Frequent Elements          | Heap             | Medium     | ✅ Done    |
 | 6   | Product of Array Except Self     | Arrays           | Medium     | ⏳ Pending |
 | 7   | Revision (review previous problems)| Review           | -          | ⏳ Pending |
 | 8   | Longest Consecutive Sequence     | Arrays & Hashing | Medium     | ⏳ Pending |
