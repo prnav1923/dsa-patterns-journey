@@ -78,6 +78,28 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
 
 ---
 
+### 5. Top K Frequent Elements (Medium)
+- **Problem**: Given an integer array `nums` and an integer `k`, return the `k` most frequent elements.
+- **Why this pattern?**: While often solved with a Heap ($O(N \log K)$), it can be optimized using **Bucket Sort** ($O(N)$). We use a hash map for counts and an array where index = frequency.
+- **Complexity**:
+    - **Time**: $O(N)$ - Single pass for counting and single pass for bucketing.
+    - **Space**: $O(N)$ - For the count map and frequency buckets.
+- **Cheat Sheet**:
+    ```python
+    count = {}
+    freq = [[] for i in range(len(nums) + 1)]
+    for n in nums: count[n] = 1 + count.get(n, 0)
+    for n, c in count.items(): freq[c].append(n)
+    
+    res = []
+    for i in range(len(freq) - 1, 0, -1):
+        for n in freq[i]:
+            res.append(n)
+            if len(res) == k: return res
+    ```
+
+---
+
 ## ⚡ Pro Tips for Interviews
 
 - **Sort vs. Hash**: Sorting takes O(n log n) but saves space. Hashing takes O(n) time but O(n) space. Always discuss this trade-off.
