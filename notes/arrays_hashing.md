@@ -61,9 +61,19 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
     return Counter(s) == Counter(t)
     ```
 
----
+### 4. Group Anagrams (Medium)
+- **Problem**: Given an array of strings `strs`, group the anagrams together.
+- **Why this pattern?**: Use a hash map where the key is the character frequency. `defaultdict(list)` simplifies appending to groups.
+- **Complexity**:
+    - **Time**: O(m * n) - Where `m` is the number of strings and `n` is the avg length.
+    - **Space**: O(m * n) - To store the groups.
+- **Cheat Sheet**:
     ```python
-    return len(nums) != len(set(nums))
+    res = defaultdict(list)
+    for s in strs:
+        count = [0] * 26
+        for c in s: count[ord(c) - ord('a')] += 1
+        res[tuple(count)].append(s)
     ```
 
 ---
