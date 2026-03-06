@@ -100,6 +100,28 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
 
 ---
 
+### 6. Product of Array Except Self (Medium)
+- **Problem**: Return an array such that `res[i]` is the product of all elements of `nums` except `nums[i]`.
+- **Why this pattern?**: Avoid division and O(n²) by using **Prefix & Postfix products**. By calculating prefix and postfix in two passes, we achieve O(n) time and O(1) space.
+- **Complexity**:
+    - **Time**: $O(N)$ - Two linear passes.
+    - **Space**: $O(1)$ - Excluding result array.
+- **Cheat Sheet**:
+    ```python
+    res = [1] * len(nums)
+    prefix = postfix = 1
+    # Left to Right
+    for i in range(len(nums)):
+        res[i] = prefix
+        prefix *= nums[i]
+    # Right to Left
+    for i in range(len(nums) - 1, -1, -1):
+        res[i] *= postfix
+        postfix *= nums[i]
+    ```
+
+---
+
 ## ⚡ Pro Tips for Interviews
 
 - **Sort vs. Hash**: Sorting takes O(n log n) but saves space. Hashing takes O(n) time but O(n) space. Always discuss this trade-off.
