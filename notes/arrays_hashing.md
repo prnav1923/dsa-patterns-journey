@@ -122,6 +122,25 @@ By trading space for time, we can avoid nested loops (O(n²)) and achieve linear
 
 ---
 
+### 7. Longest Consecutive Sequence (Medium)
+- **Problem**: Given an unsorted array, find the length of the longest consecutive elements sequence.
+- **Why this pattern?**: Use a **Hash Set** to achieve O(n) by only starting a sequence check when `num - 1` is not present (finding the "start" of a potential sequence).
+- **Complexity**:
+    - **Time**: $O(N)$ - Each number is touched at most twice.
+    - **Space**: $O(N)$ - For the set.
+- **Cheat Sheet**:
+    ```python
+    num_set = set(nums)
+    for n in num_set:
+        if (n - 1) not in num_set:
+            length = 1
+            while (n + length) in num_set:
+                length += 1
+            longest = max(length, longest)
+    ```
+
+---
+
 ## ⚡ Pro Tips for Interviews
 
 - **Sort vs. Hash**: Sorting takes O(n log n) but saves space. Hashing takes O(n) time but O(n) space. Always discuss this trade-off.
