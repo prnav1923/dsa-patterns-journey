@@ -17,18 +17,32 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 
 # 📊 Progress Tracker
 
-| Day | Problem                          | Pattern          | Difficulty | Status    |
-| --- | -------------------------------- | ---------------- | ---------- | --------- |
-| 1   | Two Sum                          | Arrays & Hashing | Easy       | ✅ Done    |
-| 2   | Contains Duplicate               | Arrays & Hashing | Easy       | ✅ Done    |
-| 3   | Valid Anagram                    | Arrays & Hashing | Easy       | ✅ Done    |
-| 4   | Group Anagrams                   | Arrays & Hashing | Medium     | ✅ Done    |
-| 5   | Top K Frequent Elements          | Heap             | Medium     | ✅ Done    |
-| 6   | Product of Array Except Self     | Arrays           | Medium     | ✅ Done    |
-| 7   | Revision (review previous problems)| Review           | -          | ✅ Done    |
-| 8   | Longest Consecutive Sequence     | Arrays & Hashing | Medium     | ✅ Done    |
-| 9   | Two Sum II (Input Array Sorted)  | Two Pointers     | Medium     | ✅ Done    |
-| 10  | Valid Palindrome                 | Two Pointers     | Easy       | ⏳ Pending |
+|   Day | Phase   | Status     | Pattern                 | Problem                                  | LeetCode #   | Difficulty   | Key Insight                       |
+|------:|:--------|:-----------|:------------------------|:-----------------------------------------|:-------------|:-------------|:----------------------------------|
+|     1 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Two Sum                                  | 1            | Easy         | Hash map approach                 |
+|     2 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Best Time to Buy & Sell Stock            | 121          | Easy         | Track min price                   |
+|     3 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Contains Duplicate                       | 217          | Easy         | Hash set                          |
+|     4 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Valid Anagram                            | 242          | Easy         | Char count                        |
+|     5 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Group Anagrams                           | 49           | Medium       | Sorted key                        |
+|     6 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Product of Array Except Self             | 238          | Medium       | Prefix & suffix                   |
+|     7 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Maximum Subarray                         | 53           | Medium       | Kadane's algo                     |
+|     8 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Top K Frequent Elements                  | 347          | Medium       | Bucket sort                       |
+|     9 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | 3Sum                                     | 15           | Medium       | Sort + two ptr                    |
+|    10 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Container With Most Water                | 11           | Medium       | Two pointer                       |
+|    11 | PHASE 1 | 📝 Revision | Arrays + Hashing        | REVISION: Arrays & Hashing               | —            | -            | Re-do 2-3 hardest from Days 1-10  |
+|    12 | PHASE 1 | ⬜ Todo     | Sliding Window          | Best Time to Buy & Sell Stock            | 121          | Easy         | Sliding window view               |
+|    13 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Substring Without Repeat         | 3            | Medium       | Classic sliding window            |
+|    14 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Repeating Char Replacement       | 424          | Medium       | Max freq trick                    |
+|    15 | PHASE 1 | ⬜ Todo     | Sliding Window          | Permutation in String                    | 567          | Medium       | Fixed window                      |
+|    16 | PHASE 1 | ⬜ Todo     | Sliding Window          | Minimum Window Substring                 | 76           | Hard         | Variable window                   |
+|    17 | PHASE 1 | ⬜ Todo     | Sliding Window          | Sliding Window Maximum                   | 239          | Hard         | Deque approach                    |
+|    18 | PHASE 1 | ⬜ Todo     | Binary Search           | Binary Search                            | 704          | Easy         | Basic template                    |
+|    19 | PHASE 1 | ⬜ Todo     | Binary Search           | Search a 2D Matrix                       | 74           | Medium       | Flatten index                     |
+|    20 | PHASE 1 | ⬜ Todo     | Binary Search           | Koko Eating Bananas                      | 875          | Medium       | Binary search on answer           |
+... (table continues to Day 180, see plan_markdown_cleaned.txt)
+
+> [!NOTE]
+> This tracker is synced with [DSA_180Day_Plan.xlsx](file:///Users/pranav/Code/DSA_tracker/dsa-patterns-journey/DSA_180Day_Plan.xlsx). 
 
 Update the **Status column** to `✅ Done` after solving each problem.
 
