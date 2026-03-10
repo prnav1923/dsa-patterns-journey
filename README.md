@@ -39,10 +39,8 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 |    18 | PHASE 1 | ⬜ Todo     | Binary Search           | Binary Search                            | 704          | Easy         | Basic template                    |
 |    19 | PHASE 1 | ⬜ Todo     | Binary Search           | Search a 2D Matrix                       | 74           | Medium       | Flatten index                     |
 |    20 | PHASE 1 | ⬜ Todo     | Binary Search           | Koko Eating Bananas                      | 875          | Medium       | Binary search on answer           |
-... (table continues to Day 180, see plan_markdown_cleaned.txt)
 
-> [!NOTE]
-> This tracker is synced with [DSA_180Day_Plan.xlsx](file:///Users/pranav/Code/DSA_tracker/dsa-patterns-journey/DSA_180Day_Plan.xlsx). 
+
 
 Update the **Status column** to `✅ Done` after solving each problem.
 

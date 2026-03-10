@@ -28,10 +28,3 @@ class Solution:
         # One-liner version of Approach 1
         return len(nums) != len(set(nums))
 
-    def containsDuplicate_Sort(self, nums: list[int]) -> bool:
-        # Approach 2: Sorting 
-        nums.sort()
-        for i in range(len(nums) - 1):
-            if nums[i] == nums[i + 1]:
-                return True
-        return False
