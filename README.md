@@ -28,7 +28,17 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 | 7   | Revision (review previous problems)| Review           | -          | ✅ Done    |
 | 8   | Longest Consecutive Sequence     | Arrays & Hashing | Medium     | ✅ Done    |
 | 9   | Two Sum II (Input Array Sorted)  | Two Pointers     | Medium     | ✅ Done    |
-| 10  | Valid Palindrome                 | Two Pointers     | Easy       | ⏳ Pending |
+| 10  | Valid Palindrome                 | Two Pointers     | Easy       | ✅ Done    |
+| 11  | Container With Most Water         | Two Pointers     | Medium     | ⏳ Pending |
+| 12  | 3Sum                              | Two Pointers     | Medium     | ⏳ Pending |
+| 13  | Remove Duplicates from Sorted Array| Two Pointers     | Easy       | ⏳ Pending |
+| 14  | Revision (review previous problems)| Review           | -          | ⏳ Pending |
+| 15  | Problem 15                        | TBD              | -          | ⏳ Pending |
+| 16  | Problem 16                        | TBD              | -          | ⏳ Pending |
+| 17  | Problem 17                        | TBD              | -          | ⏳ Pending |
+| 18  | Problem 18                        | TBD              | -          | ⏳ Pending |
+| 19  | Problem 19                        | TBD              | -          | ⏳ Pending |
+| 20  | Problem 20                        | TBD              | -          | ⏳ Pending |
 
 Update the **Status column** to `✅ Done` after solving each problem.
 

@@ -36,6 +36,23 @@ Instead of using nested loops ($O(N^2)$), we use two variables (pointers) that m
         else: return [l + 1, r + 1]
     ```
 
+### 2. Valid Palindrome (Easy)
+- **Problem**: Check if a string is a palindrome after converting to lowercase and removing non-alphanumeric characters.
+- **Why this pattern?**: Use two pointers starting at opposite ends. This avoids extra space used by string reversing or lists.
+- **Complexity**:
+    - **Time**: $O(N)$ - One pass through the string.
+    - **Space**: $O(1)$ - Constant space for pointers.
+- **Cheat Sheet**:
+    ```python
+    l, r = 0, len(s) - 1
+    while l < r:
+        while l < r and not s[l].isalnum(): l += 1
+        while r > l and not s[r].isalnum(): r -= 1
+        if s[l].lower() != s[r].lower(): return False
+        l, r = l + 1, r - 1
+    return True
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
