@@ -1,0 +1,182 @@
+|   Day | Phase   | Status     | Pattern                 | Problem                                  | LeetCode #   | Difficulty   | Key Insight                       |
+|------:|:--------|:-----------|:------------------------|:-----------------------------------------|:-------------|:-------------|:----------------------------------|
+|     1 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Two Sum                                  | 1            | Easy         | Hash map approach                 |
+|     2 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Best Time to Buy & Sell Stock            | 121          | Easy         | Track min price                   |
+|     3 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Contains Duplicate                       | 217          | Easy         | Hash set                          |
+|     4 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Valid Anagram                            | 242          | Easy         | Char count                        |
+|     5 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Group Anagrams                           | 49           | Medium       | Sorted key                        |
+|     6 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Product of Array Except Self             | 238          | Medium       | Prefix & suffix                   |
+|     7 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Maximum Subarray                         | 53           | Medium       | Kadane's algo                     |
+|     8 | PHASE 1 | ✅ Done     | Hashing / HashMaps      | Top K Frequent Elements                  | 347          | Medium       | Bucket sort                       |
+|     9 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | 3Sum                                     | 15           | Medium       | Sort + two ptr                    |
+|    10 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Container With Most Water                | 11           | Medium       | Two pointer                       |
+|    11 | PHASE 1 | ✅ Done     | Arrays + Hashing        | REVISION: Arrays & Hashing               | —            | -            | Re-do 2-3 hardest from Days 1-10  |
+|    12 | PHASE 1 | ✅ Done     | Sliding Window          | Best Time to Buy & Sell Stock            | 121          | Easy         | Sliding window view               |
+|    13 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Substring Without Repeat         | 3            | Medium       | Classic sliding window            |
+|    14 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Repeating Char Replacement       | 424          | Medium       | Max freq trick                    |
+|    15 | PHASE 1 | ⬜ Todo     | Sliding Window          | Permutation in String                    | 567          | Medium       | Fixed window                      |
+|    16 | PHASE 1 | ⬜ Todo     | Sliding Window          | Minimum Window Substring                 | 76           | Hard         | Variable window                   |
+|    17 | PHASE 1 | ⬜ Todo     | Sliding Window          | Sliding Window Maximum                   | 239          | Hard         | Deque approach                    |
+|    18 | PHASE 1 | ⬜ Todo     | Binary Search           | Binary Search                            | 704          | Easy         | Basic template                    |
+|    19 | PHASE 1 | ⬜ Todo     | Binary Search           | Search a 2D Matrix                       | 74           | Medium       | Flatten index                     |
+|    20 | PHASE 1 | ⬜ Todo     | Binary Search           | Koko Eating Bananas                      | 875          | Medium       | Binary search on answer           |
+|    21 | PHASE 1 | ⬜ Todo     | Binary Search           | Find Min in Rotated Sorted Array         | 153          | Medium       | Modified BS                       |
+|    22 | PHASE 1 | ⬜ Todo     | Binary Search           | Search in Rotated Sorted Array           | 33           | Medium       | Two halves                        |
+|    23 | PHASE 1 | ⬜ Todo     | Binary Search           | Time Based Key-Value Store               | 981          | Medium       | BS on values                      |
+|    24 | PHASE 1 | ⬜ Todo     | Binary Search           | Median of Two Sorted Arrays              | 4            | Hard         | Partition approach                |
+|    25 | PHASE 1 | 📝 Revision | Sliding Window + BS     | REVISION: Sliding Window & Binary Search | —            | -            | Re-solve 2-3 problems             |
+|    26 | PHASE 1 | ⬜ Todo     | Linked Lists            | Reverse Linked List                      | 206          | Easy         | Iterative & recursive             |
+|    27 | PHASE 1 | ⬜ Todo     | Linked Lists            | Merge Two Sorted Lists                   | 21           | Easy         | Dummy node trick                  |
+|    28 | PHASE 1 | ⬜ Todo     | Linked Lists            | Linked List Cycle                        | 141          | Easy         | Floyd's algo                      |
+|    29 | PHASE 1 | ⬜ Todo     | Linked Lists            | Reorder List                             | 143          | Medium       | Find mid + reverse                |
+|    30 | PHASE 1 | ⬜ Todo     | Linked Lists            | Remove Nth Node From End                 | 19           | Medium       | Two pointer gap                   |
+|    31 | PHASE 2 | ⬜ Todo     | Linked Lists            | Copy List with Random Pointer            | 138          | Medium       | Hash map clone                    |
+|    32 | PHASE 2 | ⬜ Todo     | Linked Lists            | Add Two Numbers                          | 2            | Medium       | Carry logic                       |
+|    33 | PHASE 2 | ⬜ Todo     | Linked Lists            | Find Duplicate Number                    | 287          | Medium       | Floyd's cycle                     |
+|    34 | PHASE 2 | ⬜ Todo     | Linked Lists            | LRU Cache                                | 146          | Medium       | DLL + hashmap                     |
+|    35 | PHASE 2 | 📝 Revision | Linked Lists            | REVISION: Linked Lists                   | —            | -            | Trace through all patterns        |
+|    36 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Valid Parentheses                        | 20           | Easy         | Stack basics                      |
+|    37 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Min Stack                                | 155          | Medium       | Aux stack                         |
+|    38 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Evaluate Reverse Polish Notation         | 150          | Medium       | Stack math                        |
+|    39 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Generate Parentheses                     | 22           | Medium       | Backtrack/stack                   |
+|    40 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Daily Temperatures                       | 739          | Medium       | Monotonic stack                   |
+|    41 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Car Fleet                                | 853          | Medium       | Monotonic stack                   |
+|    42 | PHASE 2 | ⬜ Todo     | Stacks & Queues         | Largest Rectangle in Histogram           | 84           | Hard         | Mono stack classic                |
+|    43 | PHASE 2 | 📝 Revision | Stacks & Queues         | REVISION: Stacks & Queues                | —            | -            | Focus on monotonic stack          |
+|    44 | PHASE 2 | ⬜ Todo     | Trees / BST             | Invert Binary Tree                       | 226          | Easy         | Recursive swap                    |
+|    45 | PHASE 2 | ⬜ Todo     | Trees / BST             | Maximum Depth of Binary Tree             | 104          | Easy         | DFS/BFS                           |
+|    46 | PHASE 2 | ⬜ Todo     | Trees / BST             | Diameter of Binary Tree                  | 543          | Easy         | Max left+right                    |
+|    47 | PHASE 2 | ⬜ Todo     | Trees / BST             | Balanced Binary Tree                     | 110          | Easy         | Height check                      |
+|    48 | PHASE 2 | ⬜ Todo     | Trees / BST             | Same Tree                                | 100          | Easy         | Recursive compare                 |
+|    49 | PHASE 2 | ⬜ Todo     | Trees / BST             | Subtree of Another Tree                  | 572          | Easy         | Recursive match                   |
+|    50 | PHASE 2 | ⬜ Todo     | Trees / BST             | Lowest Common Ancestor of BST            | 235          | Medium       | BST property                      |
+|    51 | PHASE 2 | ⬜ Todo     | Trees / BST             | Binary Tree Level Order Traversal        | 102          | Medium       | BFS queue                         |
+|    52 | PHASE 2 | ⬜ Todo     | Trees / BST             | Binary Tree Right Side View              | 199          | Medium       | BFS last node                     |
+|    53 | PHASE 2 | ⬜ Todo     | Trees / BST             | Count Good Nodes in Binary Tree          | 1448         | Medium       | DFS max path                      |
+|    54 | PHASE 2 | ⬜ Todo     | Trees / BST             | Validate Binary Search Tree              | 98           | Medium       | Min/max bounds                    |
+|    55 | PHASE 2 | ⬜ Todo     | Trees / BST             | Kth Smallest in BST                      | 230          | Medium       | Inorder traversal                 |
+|    56 | PHASE 2 | ⬜ Todo     | Trees / BST             | Construct Tree from Pre+Inorder          | 105          | Medium       | Divide & conquer                  |
+|    57 | PHASE 2 | ⬜ Todo     | Trees / BST             | Binary Tree Max Path Sum                 | 124          | Hard         | Global + local max                |
+|    58 | PHASE 2 | ⬜ Todo     | Trees / BST             | Serialize and Deserialize BTree          | 297          | Hard         | BFS encoding                      |
+|    59 | PHASE 2 | 📝 Revision | Trees / BST             | REVISION: Trees & BST                    | —            | -            | Re-solve 2-3 medium/hard          |
+|    60 | PHASE 2 | ⬜ Todo     | Tries                   | Implement Trie                           | 208          | Medium       | TrieNode class                    |
+|    61 | PHASE 2 | ⬜ Todo     | Tries                   | Design Add & Search Words DS             | 211          | Medium       | DFS with '.'                      |
+|    62 | PHASE 2 | ⬜ Todo     | Tries                   | Word Search II                           | 212          | Hard         | Trie + backtrack                  |
+|    63 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Kth Largest Element in Stream            | 703          | Easy         | Min-heap size k                   |
+|    64 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Last Stone Weight                        | 1046         | Easy         | Max-heap                          |
+|    65 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | K Closest Points to Origin               | 973          | Medium       | Min-heap                          |
+|    66 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Kth Largest Element in Array             | 215          | Medium       | Quickselect/heap                  |
+|    67 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Task Scheduler                           | 621          | Medium       | Greedy + heap                     |
+|    68 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Design Twitter                           | 355          | Medium       | Heap merge                        |
+|    69 | PHASE 2 | ⬜ Todo     | Heap / Priority Queue   | Find Median from Data Stream             | 295          | Hard         | Two heaps                         |
+|    70 | PHASE 2 | 📝 Revision | Tries + Heap            | REVISION: Tries & Heap                   | —            | -            | Rebuild Trie from scratch         |
+|    71 | PHASE 2 | ⬜ Todo     | Backtracking            | Subsets                                  | 78           | Medium       | Power set                         |
+|    72 | PHASE 2 | ⬜ Todo     | Backtracking            | Combination Sum                          | 39           | Medium       | Pick/skip                         |
+|    73 | PHASE 2 | ⬜ Todo     | Backtracking            | Combination Sum II                       | 40           | Medium       | Skip duplicates                   |
+|    74 | PHASE 2 | ⬜ Todo     | Backtracking            | Permutations                             | 46           | Medium       | Swap approach                     |
+|    75 | PHASE 2 | ⬜ Todo     | Backtracking            | Subsets II                               | 90           | Medium       | Sort + skip                       |
+|    76 | PHASE 2 | ⬜ Todo     | Backtracking            | Word Search                              | 79           | Medium       | DFS on grid                       |
+|    77 | PHASE 2 | ⬜ Todo     | Backtracking            | Palindrome Partitioning                  | 131          | Medium       | Partition + check                 |
+|    78 | PHASE 2 | ⬜ Todo     | Backtracking            | Letter Combinations of Phone Num         | 17           | Medium       | Multi-level DFS                   |
+|    79 | PHASE 2 | ⬜ Todo     | Backtracking            | N-Queens                                 | 51           | Hard         | Column/diag sets                  |
+|    80 | PHASE 2 | 📝 Revision | Backtracking            | REVISION: Backtracking                   | —            | -            | Re-solve N-Queens                 |
+|    81 | PHASE 3 | ⬜ Todo     | Graphs                  | Number of Islands                        | 200          | Medium       | DFS/BFS flood fill                |
+|    82 | PHASE 3 | ⬜ Todo     | Graphs                  | Clone Graph                              | 133          | Medium       | BFS + hashmap                     |
+|    83 | PHASE 3 | ⬜ Todo     | Graphs                  | Max Area of Island                       | 695          | Medium       | DFS area count                    |
+|    84 | PHASE 3 | ⬜ Todo     | Graphs                  | Pacific Atlantic Water Flow              | 417          | Medium       | Reverse BFS                       |
+|    85 | PHASE 3 | ⬜ Todo     | Graphs                  | Surrounded Regions                       | 130          | Medium       | Border DFS                        |
+|    86 | PHASE 3 | ⬜ Todo     | Graphs                  | Rotting Oranges                          | 994          | Medium       | Multi-source BFS                  |
+|    87 | PHASE 3 | ⬜ Todo     | Graphs                  | Walls and Gates                          | 286          | Medium       | BFS from gates                    |
+|    88 | PHASE 3 | ⬜ Todo     | Graphs                  | Course Schedule                          | 207          | Medium       | Topological sort                  |
+|    89 | PHASE 3 | ⬜ Todo     | Graphs                  | Course Schedule II                       | 210          | Medium       | Topo sort order                   |
+|    90 | PHASE 3 | ⬜ Todo     | Graphs                  | Redundant Connection                     | 684          | Medium       | Union-Find                        |
+|    91 | PHASE 3 | 📝 Revision | Graphs                  | REVISION: Graph BFS/DFS                  | —            | -            | Re-solve islands variants         |
+|    92 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Number of Connected Components           | 323          | Medium       | Union-Find                        |
+|    93 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Graph Valid Tree                         | 261          | Medium       | Cycle detection                   |
+|    94 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Word Ladder                              | 127          | Hard         | BFS shortest path                 |
+|    95 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Alien Dictionary                         | 269          | Hard         | Topo sort on chars                |
+|    96 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Network Delay Time                       | 743          | Medium       | Dijkstra                          |
+|    97 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Swim in Rising Water                     | 778          | Hard         | Dijkstra/binary search            |
+|    98 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Cheapest Flights Within K Stops          | 787          | Medium       | Bellman-Ford                      |
+|    99 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Min Cost to Connect All Points           | 1584         | Medium       | Prim's / Kruskal                  |
+|   100 | PHASE 3 | ⬜ Todo     | Graphs (Advanced)       | Reconstruct Itinerary                    | 332          | Hard         | Hierholzer's algo                 |
+|   101 | PHASE 3 | 📝 Revision | Graphs (Advanced)       | REVISION: Advanced Graphs                | —            | -            | Focus on Dijkstra & Union-Find    |
+|   102 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Climbing Stairs                          | 70           | Easy         | Fibonacci DP                      |
+|   103 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Min Cost Climbing Stairs                 | 746          | Easy         | DP with choice                    |
+|   104 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | House Robber                             | 198          | Medium       | Skip adjacent                     |
+|   105 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | House Robber II                          | 213          | Medium       | Circular array                    |
+|   106 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Longest Palindromic Substring            | 5            | Medium       | Expand around center              |
+|   107 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Palindromic Substrings                   | 647          | Medium       | Count expansions                  |
+|   108 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Decode Ways                              | 91           | Medium       | DP with conditions                |
+|   109 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Coin Change                              | 322          | Medium       | Bottom-up DP                      |
+|   110 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Maximum Product Subarray                 | 152          | Medium       | Track min & max                   |
+|   111 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Word Break                               | 139          | Medium       | DP + trie/set                     |
+|   112 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Longest Increasing Subsequence           | 300          | Medium       | DP + binary search                |
+|   113 | PHASE 3 | ⬜ Todo     | 1D Dynamic Programming  | Partition Equal Subset Sum               | 416          | Medium       | 0/1 knapsack                      |
+|   114 | PHASE 3 | 📝 Revision | 1D DP                   | REVISION: 1D Dynamic Programming         | —            | -            | Re-solve Coin Change & LIS        |
+|   115 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Unique Paths                             | 62           | Medium       | Grid DP                           |
+|   116 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Longest Common Subsequence               | 1143         | Medium       | Classic 2D DP                     |
+|   117 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Best Time Buy/Sell Stock w/ Cool         | 309          | Medium       | State machine DP                  |
+|   118 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Coin Change II                           | 518          | Medium       | Unbounded knapsack                |
+|   119 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Target Sum                               | 494          | Medium       | DFS/DP                            |
+|   120 | PHASE 3 | ⬜ Todo     | 2D Dynamic Programming  | Interleaving String                      | 97           | Medium       | 2D DP                             |
+|   121 | PHASE 4 | ⬜ Todo     | 2D Dynamic Programming  | Longest Increasing Path in Matrix        | 329          | Hard         | DFS + memo                        |
+|   122 | PHASE 4 | ⬜ Todo     | 2D Dynamic Programming  | Distinct Subsequences                    | 115          | Hard         | 2D DP counting                    |
+|   123 | PHASE 4 | ⬜ Todo     | 2D Dynamic Programming  | Edit Distance                            | 72           | Hard         | Classic edit DP                   |
+|   124 | PHASE 4 | ⬜ Todo     | 2D Dynamic Programming  | Burst Balloons                           | 312          | Hard         | Interval DP                       |
+|   125 | PHASE 4 | ⬜ Todo     | 2D Dynamic Programming  | Regular Expression Matching              | 10           | Hard         | DP with wildcards                 |
+|   126 | PHASE 4 | 📝 Revision | 2D DP                   | REVISION: 2D Dynamic Programming         | —            | -            | Re-solve Edit Distance            |
+|   127 | PHASE 4 | ⬜ Todo     | Intervals               | Insert Interval                          | 57           | Medium       | Find overlap range                |
+|   128 | PHASE 4 | ⬜ Todo     | Intervals               | Merge Intervals                          | 56           | Medium       | Sort + merge                      |
+|   129 | PHASE 4 | ⬜ Todo     | Intervals               | Non-overlapping Intervals                | 435          | Medium       | Greedy end sort                   |
+|   130 | PHASE 4 | ⬜ Todo     | Intervals               | Meeting Rooms                            | 252          | Easy         | Sort & check                      |
+|   131 | PHASE 4 | ⬜ Todo     | Intervals               | Meeting Rooms II                         | 253          | Medium       | Min-heap                          |
+|   132 | PHASE 4 | ⬜ Todo     | Intervals               | Minimum Interval to Include Query        | 2779         | Hard         | Sweep + heap                      |
+|   133 | PHASE 4 | ⬜ Todo     | Greedy                  | Maximum Subarray                         | 53           | Medium       | Greedy vs DP                      |
+|   134 | PHASE 4 | ⬜ Todo     | Greedy                  | Jump Game                                | 55           | Medium       | Max reach                         |
+|   135 | PHASE 4 | ⬜ Todo     | Greedy                  | Jump Game II                             | 45           | Medium       | BFS-like greedy                   |
+|   136 | PHASE 4 | ⬜ Todo     | Greedy                  | Gas Station                              | 134          | Medium       | Circular greedy                   |
+|   137 | PHASE 4 | ⬜ Todo     | Greedy                  | Hand of Straights                        | 846          | Medium       | Sorted greedy                     |
+|   138 | PHASE 4 | ⬜ Todo     | Greedy                  | Merge Triplets to Form Target            | 1899         | Medium       | Greedy filter                     |
+|   139 | PHASE 4 | ⬜ Todo     | Greedy                  | Partition Labels                         | 763          | Medium       | Last occurrence map               |
+|   140 | PHASE 4 | ⬜ Todo     | Greedy                  | Valid Parenthesis String                 | 678          | Medium       | Min/max count                     |
+|   141 | PHASE 4 | 📝 Revision | Intervals + Greedy      | REVISION: Intervals & Greedy             | —            | -            | Focus on meeting rooms II         |
+|   142 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Single Number                            | 136          | Easy         | XOR trick                         |
+|   143 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Number of 1 Bits                         | 191          | Easy         | Bit count                         |
+|   144 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Counting Bits                            | 338          | Easy         | DP on bits                        |
+|   145 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Reverse Bits                             | 190          | Easy         | Bit shifting                      |
+|   146 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Missing Number                           | 268          | Easy         | XOR or math                       |
+|   147 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Sum of Two Integers                      | 371          | Medium       | Bit addition                      |
+|   148 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Reverse Integer                          | 7            | Medium       | Overflow check                    |
+|   149 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Pow(x, n)                                | 50           | Medium       | Fast exponentiation               |
+|   150 | PHASE 4 | ⬜ Todo     | Math & Bit Manipulation | Multiply Strings                         | 43           | Medium       | Grade school multiply             |
+|   151 | PHASE 5 | 📝 Revision | Math & Bit Manipulation | REVISION: Math & Bit Manip               | —            | -            | Focus on bit tricks               |
+|   152 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Longest Common Prefix                    | 14           | Easy         | Vertical scan                     |
+|   153 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Encode and Decode Strings                | 271          | Medium       | Length-prefix                     |
+|   154 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Zigzag Conversion                        | 6            | Medium       | Simulate rows                     |
+|   155 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Find All Anagrams in String              | 438          | Medium       | Sliding window                    |
+|   156 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Minimum Window Substring                 | 76           | Hard         | Revisit hard window               |
+|   157 | PHASE 5 | ⬜ Todo     | Advanced Strings        | Longest Valid Parentheses                | 32           | Hard         | Stack or DP                       |
+|   158 | PHASE 5 | ⬜ Todo     | Advanced Trees          | Binary Tree Zigzag Level Order           | 103          | Medium       | BFS deque                         |
+|   159 | PHASE 5 | ⬜ Todo     | Advanced Trees          | Flatten Binary Tree to Linked List       | 114          | Medium       | Morris traversal                  |
+|   160 | PHASE 5 | ⬜ Todo     | Advanced Trees          | Populating Next Right Pointers           | 116          | Medium       | Level BFS                         |
+|   161 | PHASE 5 | ⬜ Todo     | Advanced Trees          | Path Sum II                              | 113          | Medium       | Backtrack on tree                 |
+|   162 | PHASE 5 | ⬜ Todo     | Advanced Trees          | House Robber III                         | 337          | Medium       | Tree DP                           |
+|   163 | PHASE 5 | ⬜ Todo     | Advanced Trees          | All Nodes Distance K in Tree             | 863          | Medium       | BFS with parent map               |
+|   164 | PHASE 5 | 📝 Revision | Advanced Strings+Trees  | REVISION: Strings & Advanced Trees       | —            | -            | Re-solve hard problems            |
+|   165 | PHASE 5 | ⬜ Todo     | Segment Trees           | Range Sum Query - Mutable                | 307          | Medium       | BIT/Fenwick tree                  |
+|   166 | PHASE 5 | ⬜ Todo     | Segment Trees           | Count of Smaller Numbers After Self      | 315          | Hard         | Merge sort / BIT                  |
+|   167 | PHASE 5 | ⬜ Todo     | Sorting Patterns        | Sort Colors                              | 75           | Medium       | Dutch national flag               |
+|   168 | PHASE 5 | ⬜ Todo     | Sorting Patterns        | Kth Largest Element in Array             | 215          | Medium       | Quickselect                       |
+|   169 | PHASE 5 | ⬜ Todo     | Sorting Patterns        | Merge k Sorted Lists                     | 23           | Hard         | Heap merge                        |
+|   170 | PHASE 5 | 📝 Revision | Mock Interview          | MOCK 1: Arrays + Sliding Window          | —            | -            | Timed: 2 mediums in 45 min        |
+|   171 | PHASE 5 | 📝 Revision | Mock Interview          | MOCK 2: Trees + Graphs                   | —            | -            | Timed: 1 medium + 1 hard          |
+|   172 | PHASE 5 | 📝 Revision | Mock Interview          | MOCK 3: DP Problems                      | —            | -            | Timed: 2 mediums in 45 min        |
+|   173 | PHASE 5 | 📝 Revision | Mock Interview          | MOCK 4: Mixed Patterns                   | —            | -            | Blind 75 random pick              |
+|   174 | PHASE 5 | 📝 Revision | Final Revision          | REVISION: Phase 1 Weak Areas             | —            | -            | Arrays/Sliding/Binary Search      |
+|   175 | PHASE 5 | 📝 Revision | Final Revision          | REVISION: Phase 2 Weak Areas             | —            | -            | Trees/Heap/Backtracking           |
+|   176 | PHASE 5 | 📝 Revision | Final Revision          | REVISION: Phase 3 Weak Areas             | —            | -            | Graphs/1D DP                      |
+|   177 | PHASE 5 | 📝 Revision | Final Revision          | REVISION: Phase 4 Weak Areas             | —            | -            | 2D DP/Intervals/Greedy            |
+|   178 | PHASE 5 | 📝 Revision | Final Revision          | MOCK 5: Full Interview Simulation        | —            | -            | 2 problems, full write-up         |
+|   179 | PHASE 5 | 📝 Revision | Final Revision          | MOCK 6: Full Interview Simulation        | —            | -            | System design + 1 DSA hard        |
+|   180 | PHASE 5 | 📝 Revision | Final Revision          | 🏁 FINAL DAY: Confidence Review           | —            | -            | Review notes, rest, you're ready! |
