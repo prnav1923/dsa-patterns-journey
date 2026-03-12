@@ -30,7 +30,7 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 |     9 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | 3Sum                                     | 15           | Medium       | Sort + two ptr                    |
 |    10 | PHASE 1 | ✅ Done     | Arrays / Two Pointers   | Container With Most Water                | 11           | Medium       | Two pointer                       |
 |    11 | PHASE 1 | ✅ Done     | Arrays + Hashing        | REVISION: Group Anagrams, Top K, Product | —            | -            | Re-do 2-3 hardest from Days 1-10  |
-|    12 | PHASE 1 | ⬜ Todo     | Sliding Window          | Best Time to Buy & Sell Stock            | 121          | Easy         | Sliding window view               |
+|    12 | PHASE 1 | ✅ Done     | Sliding Window          | Best Time to Buy & Sell Stock            | 121          | Easy         | Sliding window view               |
 |    13 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Substring Without Repeat         | 3            | Medium       | Classic sliding window            |
 |    14 | PHASE 1 | ⬜ Todo     | Sliding Window          | Longest Repeating Char Replacement       | 424          | Medium       | Max freq trick                    |
 |    15 | PHASE 1 | ⬜ Todo     | Sliding Window          | Permutation in String                    | 567          | Medium       | Fixed window                      |
