@@ -38,6 +38,26 @@ Sliding windows can be of **fixed** or **variable** size.
     return max_p
     ```
 
+### 2. Longest Substring Without Repeating Characters (Medium)
+- **Problem**: Find the length of the longest substring without repeating characters.
+- **Why this pattern?**: Use a variable sliding window. Expand the right pointer `r` to add characters. If a duplicate is encountered, shrink the window from the left `l` until there are no duplicates.
+- **Complexity**:
+    - **Time**: $O(N)$ - Each character visited twice at most.
+    - **Space**: $O(min(N, M))$ - Where $M$ is alphabet size.
+- **Cheat Sheet**:
+    ```python
+    charSet = set()
+    l = 0
+    res = 0
+    for r in range(len(s)):
+        while s[r] in charSet:
+            charSet.remove(s[l])
+            l += 1
+        charSet.add(s[r])
+        res = max(res, r - l + 1)
+    return res
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
