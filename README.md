@@ -32,7 +32,7 @@ This repository tracks my progress as I prepare for **AI/ML Engineer roles and F
 | 11 | ✅ Done | Arrays + Hashing | REVISION: Group Anagrams, Top K, Product | — | - | Re-do 2-3 hardest from Days 1-10 |
 | 12 | ✅ Done | Sliding Window | Best Time to Buy & Sell Stock | 121 | Easy | Sliding window view |
 | 13 | ✅ Done | Sliding Window | Longest Substring Without Repeat | 3 | Medium | Classic sliding window |
-| 14 | ⬜ Todo | Sliding Window | Longest Repeating Char Replacement | 424 | Medium | Max freq trick |
+| 14 | ✅ Done | Sliding Window | Longest Repeating Char Replacement | 424 | Medium | Max freq trick |
 | 15 | ⬜ Todo | Sliding Window | Permutation in String | 567 | Medium | Fixed window |
 | 16 | ⬜ Todo | Sliding Window | Minimum Window Substring | 76 | Hard | Variable window |
 | 17 | ⬜ Todo | Sliding Window | Sliding Window Maximum | 239 | Hard | Deque approach |
