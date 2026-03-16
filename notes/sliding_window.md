@@ -78,6 +78,40 @@ Sliding windows can be of **fixed** or **variable** size.
     return res
     ```
 
+### 4. Permutation in String (Medium)
+- **Problem**: Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise.
+- **Why this pattern?**: Use a fixed-size sliding window of length `len(s1)`. Maintain an array or hash map of the character frequencies for `s1` and the current window in `s2`. Instead of checking hash maps every time, you can optimize by tracking `matches` (number of characters with identical frequencies).
+- **Complexity**:
+    - **Time**: $O(N)$ - Where $N$ is the length of `s2`. We do constant work for each slide.
+    - **Space**: $O(1)$ - Constant space since we only store frequency counts for 26 lowercase English letters.
+- **Cheat Sheet**:
+    ```python
+    if len(s1) > len(s2): return False
+    s1Count, s2Count = [0]*26, [0]*26
+    for i in range(len(s1)):
+        s1Count[ord(s1[i]) - ord('a')] += 1
+        s2Count[ord(s2[i]) - ord('a')] += 1
+    matches = 0
+    for i in range(26):
+        if s1Count[i] == s2Count[i]: matches += 1
+    
+    l = 0
+    for r in range(len(s1), len(s2)):
+        if matches == 26: return True
+        
+        index = ord(s2[r]) - ord('a')
+        s2Count[index] += 1
+        if s1Count[index] == s2Count[index]: matches += 1
+        elif s1Count[index] + 1 == s2Count[index]: matches -= 1
+        
+        index = ord(s2[l]) - ord('a')
+        s2Count[index] -= 1
+        if s1Count[index] == s2Count[index]: matches += 1
+        elif s1Count[index] - 1 == s2Count[index]: matches -= 1
+        l += 1
+    return matches == 26
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
