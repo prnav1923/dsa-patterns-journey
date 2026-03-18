@@ -112,6 +112,37 @@ Sliding windows can be of **fixed** or **variable** size.
     return matches == 26
     ```
 
+### 5. Minimum Window Substring (Hard)
+- **Problem**: Given two strings `s` and `t`, return the minimum window substring of `s` such that every character in `t` (including duplicates) is included in the window. If there is no such substring, return the empty string `""`.
+- **Why this pattern?**: Use a variable sliding window. Maintain two hashmaps: one for characters in `t` (`countT`) and one for the current window (`window`). Track `have` (the number of unique characters that meet the required frequency) and `need` (the total number of unique characters required). Expand the right pointer `r` until `have == need`, then shrink the left pointer `l` to minimize the window while keeping it valid.
+- **Complexity**:
+    - **Time**: $O(M + N)$ - Where $M, N$ are the lengths of `s` and `t`. Both pointers move from left to right at most once.
+    - **Space**: $O(M + N)$ - Space for storing character frequencies in the hashmaps.
+- **Cheat Sheet**:
+    ```python
+    if not t: return ""
+    countT, window = {}, {}
+    for c in t: countT[c] = 1 + countT.get(c, 0)
+    have, need = 0, len(countT)
+    res, resLen = [-1, -1], float("infinity")
+    l = 0
+    for r in range(len(s)):
+        c = s[r]
+        window[c] = 1 + window.get(c, 0)
+        if c in countT and window[c] == countT[c]:
+            have += 1
+        while have == need:
+            if (r - l + 1) < resLen:
+                res = [l, r]
+                resLen = r - l + 1
+            window[s[l]] -= 1
+            if s[l] in countT and window[s[l]] < countT[s[l]]:
+                have -= 1
+            l += 1
+    l, r = res
+    return s[l:r+1] if resLen != float("infinity") else ""
+    ```
+
 ---
 
 ## ⚡ Pro Tips for Interviews
